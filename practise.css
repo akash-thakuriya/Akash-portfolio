@@ -1,0 +1,86 @@
+/* Reset default styles */
+body, figure, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-image: url(<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAQitKKmHiqWktbzo8GimJOwGH6Gwl6qx2HdVM865X&amp;s" jsaction="VQAsE" class="r48jcc pT0Scc" alt="RITES | Corporate Office" jsname="JuXqh" style="max-width: 460px; width: 302px; height: 361px; margin: 0px; position: absolute; visibility: hidden;" data-ilt="1688978798152">);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0d0d0d;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* About section styles */
+  #about {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 16px;
+  }
